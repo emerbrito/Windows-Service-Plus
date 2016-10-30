@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Windows Service Plus</Name>
+    <Description>A full featured Windows Service based on TopShelf and pre-configured with logging and an IoC container. Just add your code to the Start methods and you are good to go.</Description>
+    <Icon>Template.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Windows</ProjectSubType>
+    <RequiredFrameworkVersion>4.6</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>4413a966-40c3-4b62-8fc6-27911ea7013c</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WinServicePlus</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Service\WinService.cs" OpenInEditor="true">WinService.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">IocModule.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">Log.config</ProjectItem>
+      <ProjectItem>App.config</ProjectItem>
+      <ProjectItem>packages.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
