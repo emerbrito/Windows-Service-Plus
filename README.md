@@ -1,3 +1,4 @@
+
 Windows-Service-Plus
 ======================
 
@@ -5,7 +6,7 @@ Windows-Service-Plus is a Visual Studio 2015 Project Template to get you started
 
 The idea is that you should be able to focus directly on your service logic right from the start, bypassing all the plumbing and boilerplate code.
 
-Defaults are reasonable and will apply to most services but of course you can always change it to fit your needs
+Defaults are reasonable and will applyÂ to most services but of course you can always change it to fit your needs
 
 Since we are using [TopShelf]( http://topshelf-project.com/), you get a service that is easier to test and deploy. Not to mention the hability to run and debug the service as a console application.
 You don't have to be know [TopShelf]( http://topshelf-project.com/) to take advantage of this project template but it is something worth checking.
@@ -14,7 +15,8 @@ You don't have to be know [TopShelf]( http://topshelf-project.com/) to take adva
 
 #### Download the Extension
 
-Get the extension from the Visual Studio Extension Gallery:
+Get the Visual Studio Extension:
+[Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/68418c38-2178-466f-b161-3a6bf789451c)
 
 ### Getting Started
 
