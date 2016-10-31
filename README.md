@@ -1,4 +1,5 @@
 
+
 Windows-Service-Plus
 ======================
 
@@ -8,8 +9,9 @@ The idea is that you should be able to focus directly on your service logic righ
 
 Defaults are reasonable and will apply to most services but of course you can always change it to fit your needs
 
-Since we are using [TopShelf]( http://topshelf-project.com/), you get a service that is easier to test and deploy. Not to mention the hability to run and debug the service as a console application.
-You don't have to be know [TopShelf]( http://topshelf-project.com/) to take advantage of this project template but it is something worth checking.
+Since the project is based on [TopShelf]( http://topshelf-project.com/) you get all the goodies the framework has to offer such as a service that is easier to test and deploy. Not to mention the hability to run and debug the service as a console application. 
+
+You don't have to be know [TopShelf]( http://topshelf-project.com/) to take advantage of this project template but it is definitelly something worth checking.
 
 ![Program Cs](images/intro.png)
 
