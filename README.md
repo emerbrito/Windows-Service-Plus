@@ -3,15 +3,15 @@
 Windows-Service-Plus
 ======================
 
-Windows-Service-Plus is a Visual Studio 2015 Project Template to get you started with a full featured Windows Service based on [TopShelf]( http://topshelf-project.com/) and pre-loaded with logging, IoC container and more. 
+Windows-Service-Plus is a Visual Studio 2015 Project Template to get you started with a full featured Windows Service based on [TopShelf][1] and pre-loaded with logging, IoC container and more. 
 
 The idea is that you should be able to focus directly on your service logic right from the start, bypassing all the plumbing and boilerplate code.
 
 Defaults are reasonable and will apply to most services but of course you can always change it to fit your needs
 
-Since the project is based on [TopShelf]( http://topshelf-project.com/) you get all the goodies the framework has to offer such as a service that is easier to test and deploy. Not to mention the hability to run and debug the service as a console application. 
+Since the project is based on [TopShelf][1] you get all the goodies the framework has to offer such as a service that is easier to test and deploy. Not to mention the hability to run and debug the service as a console application. 
 
-You don't have to be know [TopShelf]( http://topshelf-project.com/) to take advantage of this project template but it is definitelly something worth checking.
+You don't have to be know [TopShelf][1] to take advantage of this project template but it is definitelly something worth checking.
 
 ![Program Cs](images/intro.png)
 
@@ -22,7 +22,7 @@ Get the Visual Studio Extension:
 
 ### Getting Started
 
-After the project is created just hit `F5` and it should download the required nugget packages and run as a console application.
+After the project is created just hit `F5` and it should download the required NuGet packages and run as a console application.
 
 Your service logic should go on the `Start` method of `Service\WinService.cs`
 
@@ -63,7 +63,7 @@ Comment or uncomment other options to change defaults used during the service in
 
 The created project will have a dependency on Nuget packages for the the following tools, framework and/or libraries:
 
-* [TopShelf]( http://topshelf-project.com/): used to create the Windows Service.
+* [TopShelf][1]: used to create the Windows Service.
 * [Common.Logging]( https://github.com/net-commons/common-logging): used to abstract the log implementation.
 * [log4net]( http://logging.apache.org/log4net/): used as the concrete log framework.
 * [Ninject]( http://www.ninject.org/): used for dependency injection.
@@ -90,3 +90,5 @@ To change default log level to INFO, just change the level on the same block fro
       <!--<appender-ref ref="EventLogAppender"/>-->
     </root>
 ```
+
+[1]: http://topshelf-project.com/ "TopShelf"
